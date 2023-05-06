@@ -85,10 +85,10 @@ export default {
       tipo: "",
       mensaje: "",
       nombreRules: [(v) => !!v || "El nombre es requerido"],
-      correoRules: [(v) => !!v || "El nombre es requerido"],
-      telefonoRules: [(v) => !!v || "El nombre es requerido"],
-      tipoRules: [(v) => !!v || "El nombre es requerido"],
-      mensajeRules: [(v) => !!v || "El nombre es requerido"],
+      correoRules: [(v) => !!v || "El correo es requerido"],
+      telefonoRules: [(v) => !!v || "El telefono es requerido"],
+      tipoRules: [(v) => !!v || "El tipo es requerido"],
+      mensajeRules: [(v) => !!v || "El mensaje es requerido"],
     };
   },
   computed:{

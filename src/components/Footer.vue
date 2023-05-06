@@ -66,9 +66,9 @@ export default {
     return {
       texto: [
         { text: "Sobre mi", to: "/about" },
-        { text: "Proyectos", to: "" },
-        { text: "Servicios", to: "" },
-        { text: "Precios", to: "" },
+        { text: "Proyectos", to: "/proyectos" },
+        { text: "Servicios", to: "/servicios" },
+        { text: "Precios", to: "/precios" },
       ],
       contacto: [
         { texto: "+52 55-11-10-56-30", icono: "mdi-phone", to:'tel:+525511105630' },

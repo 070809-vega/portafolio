@@ -2,7 +2,9 @@
   <v-app>
     <v-app-bar app color="white">
       <div class="d-flex align-center">
-        <h5>VegaDev</h5>
+        <router-link to="/" style="text-decoration: none; color: inherit;">
+          <h5 >VegaDev</h5>
+        </router-link>
         <!-- <v-img
           alt="Vuetify Logo"
           class="shrink mr-2"
@@ -28,9 +30,7 @@
       target="_blank"
        -->
       <v-btn text>
-        <v-icon dark>
-        mdi-menu
-      </v-icon>
+        <v-icon dark> mdi-menu </v-icon>
       </v-btn>
     </v-app-bar>
 

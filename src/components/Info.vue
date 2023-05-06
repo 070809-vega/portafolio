@@ -32,7 +32,7 @@
               </v-card>
             </v-col>
           </v-row>
-          <v-btn class="ml-4 mt-5" dark>Leer mas</v-btn>
+          <v-btn class="ml-4 mt-5" dark to="/proyectos">Leer mas</v-btn>
         </v-col>
       </v-row>
     </v-card>
