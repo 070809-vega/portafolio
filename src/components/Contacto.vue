@@ -59,7 +59,8 @@
               ></v-textarea>
             </v-col>
           </v-row>
-          <v-btn dark type="submit" :disabled="bloquear"> Enviar </v-btn>
+          <!-- <v-btn dark type="submit" >  </v-btn> -->
+          <input type="submit" :disabled="bloquear" value="Enviar" dark>
           <input
             dark
             type="hidden"
