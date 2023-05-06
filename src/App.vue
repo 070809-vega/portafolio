@@ -2,8 +2,8 @@
   <v-app>
     <v-app-bar app color="white">
       <div class="d-flex align-center">
-        <router-link to="/" style="text-decoration: none; color: inherit;">
-          <h5 >VegaDev</h5>
+        <router-link to="/" style="text-decoration: none; color: inherit">
+          <h5>VegaDev</h5>
         </router-link>
         <!-- <v-img
           alt="Vuetify Logo"
@@ -33,7 +33,11 @@
         <v-icon dark> mdi-menu </v-icon>
       </v-btn>
     </v-app-bar>
-
+    <a href="https://api.whatsapp.com/send?phone=525511105630">
+      <v-btn color="green darken-1" fixed fab bottom right elevation="6">
+        <v-icon color="white">mdi-whatsapp</v-icon>
+      </v-btn>
+    </a>
     <v-main>
       <router-view />
     </v-main>
@@ -50,6 +54,8 @@ export default {
 };
 </script>
 <style>
+.boton-flotante {
+}
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 47px;
