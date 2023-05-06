@@ -64,7 +64,7 @@
             dark
             type="hidden"
             name="_next"
-            value="http://192.168.100.14:8080/"
+            value="https://luisvega.vercel.app/"
           />
           <input dark type="hidden" name="_captcha" value="false" />
         </v-container>
