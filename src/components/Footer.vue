@@ -26,18 +26,19 @@
           <v-card color="transparent" class="flex" elevation="0">
             <p class="small ml-10 mb-2 white--text">Contacto</p>
             <v-divider dark></v-divider>
-            <v-btn
+            <a
+              style="text-decoration: none"
               v-for="cont in contacto"
               :key="cont.texto"
-              class="mx-2 white--text text-capitalize mt-2"
-              text
-              rounded
+              :href="cont.to"
             >
-              <p class="small text-capitalize">
-                <v-icon>{{ cont.icono }}</v-icon>
-                {{ cont.texto }}
-              </p>
-            </v-btn>
+              <v-btn class="mx-2 white--text text-capitalize mt-2" text rounded>
+                <p class="small text-capitalize">
+                  <v-icon>{{ cont.icono }}</v-icon>
+                  {{ cont.texto }}
+                </p>
+              </v-btn>
+            </a>
             <v-card color="transparent" elevation="0">
               <a
                 style="text-decoration: none"
@@ -70,8 +71,8 @@ export default {
         { text: "Precios", to: "" },
       ],
       contacto: [
-        { texto: "+52 55-11-10-56-30", icono: "mdi-phone" },
-        { texto: "vegalu63@gmail.com", icono: "mdi-gmail" },
+        { texto: "+52 55-11-10-56-30", icono: "mdi-phone", to:'tel:+525511105630' },
+        { texto: "vegalu63@gmail.com", icono: "mdi-gmail", to:'mailto:vegalu63@gmail.com' },
       ],
       icons: [
         {
