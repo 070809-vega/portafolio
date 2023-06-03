@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card class="pt-5">
-      <v-form action="https://formsubmit.co/3e9b5b79abe1b0a059286d3793f23517" method="POST">
+      <v-form action="https://formsubmit.co/vegdesing@gmail.com" method="POST">
         <h2 class="ml-5">Envianos tus comentarios</h2>
         <p class="ml-5">
           Estamos siempre pendiente de lo que dicen nuestros clientes

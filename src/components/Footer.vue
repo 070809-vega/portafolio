@@ -71,8 +71,8 @@ export default {
         { text: "Precios", to: "/precios" },
       ],
       contacto: [
-        { texto: "+52 55-11-10-56-30", icono: "mdi-phone", to:'tel:+525511105630' },
-        { texto: "vegalu63@gmail.com", icono: "mdi-gmail", to:'mailto:vegalu63@gmail.com' },
+        { texto: "+52 55-13-16-90-74", icono: "mdi-phone", to:'tel:+525513169074' },
+        { texto: "vegdesing@gmail.com", icono: "mdi-gmail", to:'mailto:vegdesing@gmail.com' },
       ],
       icons: [
         {
@@ -86,7 +86,7 @@ export default {
         { icon: "mdi-instagram", to: "https://www.instagram.com/luisvegadev/" },
         {
           icon: "mdi-whatsapp",
-          to: "https://api.whatsapp.com/send?phone=525511105630",
+          to: "https://api.whatsapp.com/send?phone=525513169074",
         },
       ],
     };

@@ -29,27 +29,27 @@ export default {
         {
           img: require("@/assets/desarrollo-web.svg"),
           title: "Desarrollo Web",
-          body: `Dedicados en el desarrollo de tu web, con la mas alta experiencia en el area ...`,
-          // body: `Dedicados en el desarrollo de tu web, con la mas alta experiencia en el area,
-          // somos tu mejor opcion para la creacion de tu web`,
-          small: "Leer mas",
+          // body: `Dedicados en el desarrollo de tu web, con la mas alta experiencia en el area ...`,
+          body: `Dedicados en el desarrollo de tu web, con la mas alta experiencia en el area,
+          somos tu mejor opcion para la creacion de tu web`,
+          // small: "Leer mas",
         },
         {
           img: require("@/assets/diseno-web.svg"),
           title: "Diseño Web",
-          body: `Dedicados en cada detalle del diseño de tu pagina web, siempre estamos ...`,
-          // body: `Dedicados en cada detalle del diseño de tu pagina web, siempre estamos
-          // renovando nuestros diseños para tu empresa, con la mas alta experiencia en el campo`,
-          small: "Leer mas",
+          // body: `Dedicados en cada detalle del diseño de tu pagina web, siempre estamos ...`,
+          body: `Dedicados en cada detalle del diseño de tu pagina web, siempre estamos
+          renovando nuestros diseños para tu empresa, con la mas alta experiencia en el campo`,
+          // small: "Leer mas",
         },
         {
           img: require("@/assets/fotografia.svg"),
           title: "Fotografia",
-          body: `Contamos con un equipo de fotografos dedicados que daran un impacto a tu web ...`,
-          // body: `Contamos con un equipo de fotografos dedicados que daran un impacto a tu web
-          // ya se que encargaran de tomar la fotografias de tus productos en los mejores angulos
-          // posibles`,
-          small: "Leer mas",
+          // body: `Contamos con un equipo de fotografos dedicados que daran un impacto a tu web ...`,
+          body: `Contamos con un equipo de fotografos dedicados que daran un impacto a tu web
+          ya se que encargaran de tomar la fotografias de tus productos en los mejores angulos
+          posibles`,
+          // small: "Leer mas",
         },
       ],
     };

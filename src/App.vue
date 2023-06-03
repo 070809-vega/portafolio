@@ -33,7 +33,7 @@
         <v-icon dark> mdi-menu </v-icon>
       </v-btn>
     </v-app-bar>
-    <a href="https://api.whatsapp.com/send?phone=525511105630">
+    <a href="https://api.whatsapp.com/send?phone=525513169074">
       <v-btn color="green darken-1" fixed fab bottom right elevation="6">
         <v-icon color="white">mdi-whatsapp</v-icon>
       </v-btn>
@@ -54,8 +54,6 @@ export default {
 };
 </script>
 <style>
-.boton-flotante {
-}
 h1 {
   font-family: "Poppins", sans-serif;
   font-size: 47px;
